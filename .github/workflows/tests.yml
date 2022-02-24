@@ -98,7 +98,7 @@ jobs:
     #   HACK, ref: https://github.com/pradyunsg/sphinx-theme-builder/issues/18
     - name: Check for broken links
       id: lychee
-      uses: lycheeverse/lychee-action@v1.3.0
+      uses: lycheeverse/lychee-action@v1.3.1
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
